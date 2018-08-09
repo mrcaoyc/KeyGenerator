@@ -10,7 +10,7 @@ import java.net.UnknownHostException;
  *
  * @author CaoYongCheng
  */
-public class IPKeyGenerator extends DefaultKeyGenerator {
+public class IPKeyGenerator extends GenericKeyGenerator {
 
 
     @Override

@@ -5,7 +5,10 @@ package com.generator;
  */
 public class TestApp {
     public static void main(String[] args) {
-        KeyGenerator keyGenerator=new IPKeyGenerator();
-        System.out.println(keyGenerator.generateKey());
+        KeyGenerator keyGenerator = new IPSectionKeyGenerator();
+        for (int i = 0; i < 100; i++) {
+            System.out.println(keyGenerator.generateKey());
+        }
+
     }
 }
